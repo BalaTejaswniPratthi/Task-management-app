@@ -1,0 +1,115 @@
+/* Background */
+body {
+  background: #f4f7fc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 0;
+}
+
+/* Statistics Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body h2 {
+  font-weight: bold;
+}
+
+/* Search */
+.form-control,
+.form-select {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+}
+
+/* Add Task Card */
+.card.shadow-lg {
+  border-radius: 18px;
+}
+
+/* Task Cards */
+.task-card {
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.badge {
+  padding: 8px 14px;
+  font-size: 14px;
+}
+
+.btn {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: #4f46e5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #4338ca;
+}
+
+.btn-warning {
+  color: white;
+}
+
+.btn-danger {
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Loading */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Dashboard spacing */
+.container {
+  padding-bottom: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .d-flex.justify-content-between {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
